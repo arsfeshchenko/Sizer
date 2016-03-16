@@ -36,9 +36,9 @@ var size9 = 38;
 var height9 = 52;
 var font9 = "Open Sans";
 
-var size0 = 45;
-var height0 = 48;
-var font0 = "Open Sans";
+var size0 = 15;
+var height0 = 20;
+var font0 = "Open Sans Semibold";
 
 
 

@@ -74,7 +74,7 @@
       "script" : "sizer.cocoascript",
       "handler" : "onRun0",
       "shortcut" : "alt ctrl 0",
-      "name" : "h1-1",
+      "name" : "Button",
       "identifier" : "toggle0"
     },
 
