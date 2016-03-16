@@ -1,0 +1,77 @@
+
+
+var size1 = 13;
+var height1 = 20;
+var font1 = "Open Sans";
+
+var size2 = 15;
+var height2 = 20;
+var font2 = "Open Sans";
+
+var size3 = 15;
+var height3 = 24;
+var font3 = "Open Sans";
+
+var size4 = 15;
+var height4 = 24;
+var font4 = "Open Sans Bold";
+
+var size5 = 15;
+var height5 = 20;
+var font5 = "Open Sans Bold";
+
+var size6 = 20;
+var height6 = 28;
+var font6 = "Open Sans";
+
+var size7 = 20;
+var height7 = 24;
+var font7 = "Open Sans";
+
+var size8 = 26;
+var height8 = 32;
+var font8 = "Open Sans";
+
+var size9 = 38;
+var height9 = 52;
+var font9 = "Open Sans";
+
+var size0 = 45;
+var height0 = 48;
+var font0 = "Open Sans";
+
+
+
+var onRun1 = function(context) { setTextSize(size1, height1, font1, context); };
+var onRun2 = function(context) { setTextSize(size2, height2, font2, context); };
+var onRun3 = function(context) { setTextSize(size3, height3, font3, context); };
+var onRun4 = function(context) { setTextSize(size4, height4, font4, context); };
+var onRun5 = function(context) { setTextSize(size5, height5, font5, context); };
+var onRun6 = function(context) { setTextSize(size6, height6, font6, context); };
+var onRun7 = function(context) { setTextSize(size7, height7, font7, context); };
+var onRun8 = function(context) { setTextSize(size8, height8, font8, context); };
+var onRun9 = function(context) { setTextSize(size9, height9, font9, context); };
+var onRun0 = function(context) { setTextSize(size0, height0, font0, context); };
+
+
+var setTextSize = function(size, height, font, context) {
+
+	var selection = context.selection;
+	if (selection.count() > 0) {
+
+		var loop = selection.objectEnumerator()
+		while (layer = loop.nextObject()) {
+
+			if ([layer class] === MSTextLayer) {
+      			log(layer);
+				layer.fontSize = size;
+				layer.lineHeight = height;
+				var font = [NSFont fontWithName:font size:size];
+				layer.font = font;
+    		}
+		}
+	} else {
+		var doc = context.document;
+		doc.showMessage("You didn’t select a layer!");
+	}
+};

@@ -1,0 +1,97 @@
+{
+  "author" : "Arsenii Feshchenko",
+  "authorEmail" : "ars.feshchenko@gmail.com",
+  "homepage": "",
+  "version": 1,
+  "identifier": "com.example.sketch.sizer",
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "commands" : [
+    {
+      "script" : "sizer.cocoascript",
+      "handler" : "onRun1",
+      "shortcut" : "alt ctrl 1",
+      "name" : "body-xs",
+      "identifier" : "toggle1"
+    },
+    {
+      "script" : "sizer.cocoascript",
+      "handler" : "onRun2",
+      "shortcut" : "alt ctrl 2",
+      "name" : "body-1",
+      "identifier" : "toggle2"
+    },
+    {
+      "script" : "sizer.cocoascript",
+      "handler" : "onRun3",
+      "shortcut" : "alt ctrl 3",
+      "name" : "body-1",
+      "identifier" : "toggle3"
+    },
+    {
+      "script" : "sizer.cocoascript",
+      "handler" : "onRun4",
+      "shortcut" : "alt ctrl 4",
+      "name" : "h5-2",
+      "identifier" : "toggle4"
+    },
+    {
+      "script" : "sizer.cocoascript",
+      "handler" : "onRun5",
+      "shortcut" : "alt ctrl 5",
+      "name" : "h5-1",
+      "identifier" : "toggle5"
+    },
+    {
+      "script" : "sizer.cocoascript",
+      "handler" : "onRun6",
+      "shortcut" : "alt ctrl 6",
+      "name" : "h4-2",
+      "identifier" : "toggle6"
+    },
+    {
+      "script" : "sizer.cocoascript",
+      "handler" : "onRun7",
+      "shortcut" : "alt ctrl 7",
+      "name" : "h4-1",
+      "identifier" : "toggle7"
+    },
+    {
+      "script" : "sizer.cocoascript",
+      "handler" : "onRun8",
+      "shortcut" : "alt ctrl 8",
+      "name" : "h3-1",
+      "identifier" : "toggle8"
+    },
+    {
+      "script" : "sizer.cocoascript",
+      "handler" : "onRun9",
+      "shortcut" : "alt ctrl 9",
+      "name" : "h2-1",
+      "identifier" : "toggle9"
+    },
+    {
+      "script" : "sizer.cocoascript",
+      "handler" : "onRun0",
+      "shortcut" : "alt ctrl 0",
+      "name" : "h1-1",
+      "identifier" : "toggle0"
+    },
+
+  ],
+  "menu" : {
+    "items" : [
+      "toggle1",
+      "toggle2",
+      "toggle3",
+      "toggle4",
+      "toggle5",
+      "toggle6",
+      "toggle7",
+      "toggle8",
+      "toggle9",
+      "toggle0"
+    ],
+    "title" : "Sizer"
+  },
+}
