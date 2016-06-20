@@ -23,7 +23,7 @@ Align Right | Shift + Ctrl + →
 
 <br>
 You can set your own styles in `Texter.sketchplugin > texter.cocoascript`:
-<br>
+<br><br>
 <img src="https://github.com/arsfeshchenko/Texter/blob/master/Demo/styles.png" alt="Demo" />
 
 
