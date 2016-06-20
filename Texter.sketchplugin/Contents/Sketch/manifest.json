@@ -3,79 +3,102 @@
   "authorEmail" : "ars.feshchenko@gmail.com",
   "homepage": "",
   "version": 1,
-  "identifier": "com.example.sketch.sizer",
+  "identifier": "com.example.sketch.texter",
   "compatibleVersion": 3,
   "bundleVersion": 1,
   "commands" : [
     {
-      "script" : "sizer.cocoascript",
+      "script" : "texter.cocoascript",
       "handler" : "onRun1",
       "shortcut" : "alt ctrl 1",
       "name" : "body-xs",
       "identifier" : "toggle1"
     },
     {
-      "script" : "sizer.cocoascript",
+      "script" : "texter.cocoascript",
       "handler" : "onRun2",
       "shortcut" : "alt ctrl 2",
       "name" : "body-1",
       "identifier" : "toggle2"
     },
     {
-      "script" : "sizer.cocoascript",
+      "script" : "texter.cocoascript",
       "handler" : "onRun3",
       "shortcut" : "alt ctrl 3",
       "name" : "body-1",
       "identifier" : "toggle3"
     },
     {
-      "script" : "sizer.cocoascript",
+      "script" : "texter.cocoascript",
       "handler" : "onRun4",
       "shortcut" : "alt ctrl 4",
       "name" : "h5-2",
       "identifier" : "toggle4"
     },
     {
-      "script" : "sizer.cocoascript",
+      "script" : "texter.cocoascript",
       "handler" : "onRun5",
       "shortcut" : "alt ctrl 5",
       "name" : "h5-1",
       "identifier" : "toggle5"
     },
     {
-      "script" : "sizer.cocoascript",
+      "script" : "texter.cocoascript",
       "handler" : "onRun6",
       "shortcut" : "alt ctrl 6",
       "name" : "h4-2",
       "identifier" : "toggle6"
     },
     {
-      "script" : "sizer.cocoascript",
+      "script" : "texter.cocoascript",
       "handler" : "onRun7",
       "shortcut" : "alt ctrl 7",
       "name" : "h4-1",
       "identifier" : "toggle7"
     },
     {
-      "script" : "sizer.cocoascript",
+      "script" : "texter.cocoascript",
       "handler" : "onRun8",
       "shortcut" : "alt ctrl 8",
       "name" : "h3-1",
       "identifier" : "toggle8"
     },
     {
-      "script" : "sizer.cocoascript",
+      "script" : "texter.cocoascript",
       "handler" : "onRun9",
       "shortcut" : "alt ctrl 9",
       "name" : "h2-1",
       "identifier" : "toggle9"
     },
     {
-      "script" : "sizer.cocoascript",
+      "script" : "texter.cocoascript",
       "handler" : "onRun0",
       "shortcut" : "alt ctrl 0",
-      "name" : "Button",
+      "name" : "button",
       "identifier" : "toggle0"
+    },
+
+
+    {
+      "script" : "texter.cocoascript",
+      "handler" : "onRun10",
+      "shortcut" : "alt ctrl ←",
+      "name" : "Align Left",
+      "identifier" : "toggle10"
+    },
+    {
+      "script" : "texter.cocoascript",
+      "handler" : "onRun11",
+      "shortcut" : "alt ctrl ↓",
+      "name" : "Align Center",
+      "identifier" : "toggle11"
+    },
+    {
+      "script" : "texter.cocoascript",
+      "handler" : "onRun12",
+      "shortcut" : "alt ctrl →",
+      "name" : "Align Right",
+      "identifier" : "toggle12"
     },
 
   ],
@@ -90,8 +113,11 @@
       "toggle7",
       "toggle8",
       "toggle9",
-      "toggle0"
+      "toggle0",
+      "toggle10",
+      "toggle11",
+      "toggle12"
     ],
-    "title" : "Sizer"
+    "title" : "Texter"
   },
 }

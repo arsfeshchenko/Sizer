@@ -53,6 +53,10 @@ var onRun8 = function(context) { setTextSize(size8, height8, font8, context); };
 var onRun9 = function(context) { setTextSize(size9, height9, font9, context); };
 var onRun0 = function(context) { setTextSize(size0, height0, font0, context); };
 
+var onRun10 = function(context) { setTextAlignment(0, context); };
+var onRun11 = function(context) { setTextAlignment(2, context); };
+var onRun12 = function(context) { setTextAlignment(1, context); };
+
 
 var setTextSize = function(size, height, font, context) {
 
@@ -68,6 +72,27 @@ var setTextSize = function(size, height, font, context) {
 				layer.lineHeight = height;
 				var font = [NSFont fontWithName:font size:size];
 				layer.font = font;
+    		}
+		}
+	} else {
+		var doc = context.document;
+		doc.showMessage("You didn’t select a layer!");
+	}
+};
+
+
+
+var setTextAlignment = function(align, context) {
+
+	var selection = context.selection;
+	if (selection.count() > 0) {
+
+		var loop = selection.objectEnumerator()
+		while (layer = loop.nextObject()) {
+
+			if ([layer class] === MSTextLayer) {
+      			log(layer);
+				layer.textAlignment = align;
     		}
 		}
 	} else {
