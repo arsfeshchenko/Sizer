@@ -2,7 +2,7 @@
 
 Change font style or alignment of the text with shortcuts.
 
-![Image of Yaktocat](http://i.giphy.com/26u6ctDXopW5C7lpm.gif)
+<img src="https://github.com/arsfeshchenko/Texter/blob/master/Demo/demo.gif" alt="Demo" />
 
 Color | Shortcut
 ------------ | -------------
