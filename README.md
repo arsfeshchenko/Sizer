@@ -1,6 +1,6 @@
 # Texter
 
-Change font style of the text with shortcuts.
+Change font style or alignment of the text with shortcuts.
 
 ![Image of Yaktocat](http://i.giphy.com/26u6ctDXopW5C7lpm.gif)
 
@@ -15,7 +15,10 @@ Style 6 | Shift + Ctrl + 6
 Style 7 | Shift + Ctrl + 7
 Style 8 | Shift + Ctrl + 8
 Style 9 | Shift + Ctrl + 9
-Style 0 | Shift + Ctrl + 0
+Style 10 | Shift + Ctrl + 0
+Align Left | Shift + Ctrl + ←
+Align Center | Shift + Ctrl + ↓
+Align Right | Shift + Ctrl + →
 
 
 <br>
