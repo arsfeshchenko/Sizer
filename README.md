@@ -24,7 +24,7 @@ Align Right | Shift + Ctrl + →
 <br>
 You can set your own styles in `Texter.sketchplugin > texter.cocoascript`:
 <br>
-![Your colors](http://s12.postimg.org/j7lpbhdfh/painter.png)
+<img src="https://github.com/arsfeshchenko/Texter/blob/master/Demo/styles.png" alt="Demo" />
 
 
 ## Install
